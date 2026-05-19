@@ -2,7 +2,7 @@
 
 Este repositorio contiene una plataforma web interactiva ("RefactorLab") diseñada para evaluar competencias avanzadas en el diseño y arquitectura de código limpio (Clean Code) mediante simulaciones basadas en los patrones de refactorización de **Martin Fowler**.
 
-## 🛠️ Contenido (15 Misiones Integradas)
+## Contenido (15 Misiones Integradas)
 
 El simulador evalúa en tiempo real, mediante reglas de análisis sintáctico, la resolución de 15 problemas clásicos ("Code Smells"):
 1.  **Extract Method**: Aislamiento de lógica en métodos cohesivos.
@@ -21,18 +21,4 @@ El simulador evalúa en tiempo real, mediante reglas de análisis sintáctico, l
 14. **Preserve Whole Object**: Reducción de parámetros largos pasando el objeto íntegro.
 15. **Substitute Algorithm**: Utilización de la API Collections/Streams en lugar de bucles for-loop manuales.
 
-## 🚀 Despliegue en el Aula mediante GitHub Pages
 
-Puedes disponer del entorno completo en cuestión de minutos usando tu propio perfil de GitHub, sin necesidad de infraestructura de backend (100% Client-Side Javascript):
-
-1. Sube los archivos `index.html` y `README.md` a la rama `main` de un repositorio nuevo (ej. `misiones-refactoring`).
-2. Entra a **Settings > Pages** dentro de tu repositorio en GitHub.
-3. En la sección **Build and deployment**, selecciona `Deploy from a branch`.
-4. Elige la rama `main` y guarda.
-5. Comparte la URL resultante (ej. `https://tu-usuario.github.io/misiones-refactoring/`) a través de vuestro LMS o plataforma educativa habitual.
-
-## 🔑 Módulo Exclusivo para el Instructor
-
-Como docente, dispones de un mecanismo de evaluación oculto (sin dependencias visibles en la UI) para cargar al instante el patrón de solución esperado propuesto por la literatura oficial:
-* **Atajo rápido:** Pulsa `Ctrl + Shift + P` en el teclado.
-* **Trigger gráfico:** Haz doble clic sobre el texto `🔒 Módulo Instructor` situado en la parte inferior del panel lateral izquierdo.
